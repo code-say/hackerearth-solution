@@ -1,4 +1,14 @@
+// https://www.thecscience.com/2021/10/hackerearth-monk-and-his-friends-problem-solution.html
+// https://www.hackerearth.com/practice/data-structures/trees/binary-search-tree/practice-problems/algorithm/monk-and-his-friends/
+ 
+process.stdin.resume();
+process.stdin.setEncoding("utf-8");
+var stdin_input = " ";
+                                                              // Reading input from STDIN
 
+process.stdin.on("data", function (input) {
+  stdin_input += input;
+});
 
 
 function main(input)
