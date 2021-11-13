@@ -10,7 +10,7 @@ process.stdin.on("data", function (input) {
   stdin_input += input;
 });
 
-process.stdin.on("end" function (){
+process.stdin.on("end", function (){
   main(stdin_input);
 })
 
